@@ -1,0 +1,20 @@
+{
+  "name": "basteyy/minimal-hash-wrapper",
+  "description": "A minimal (static) class for hashing and verifying passwords",
+  "type": "libary",
+  "authors": [
+    {
+      "name": "basteyy",
+      "email": "b@steyy.de"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "basteyy\\MinimalHashWrapper\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
